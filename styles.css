@@ -1,0 +1,51 @@
+html{
+    font: 1.1em/1.4 Helvetica, sans-serif;
+}
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: red;
+  }
+
+  #small,#medium,#large {
+    float:left;
+    font-size: 10px;
+
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  body {
+    background-color: green;
+  }
+
+  #small{
+    float:left;
+    font-size: 15px;
+    width : 66%;
+  }
+  #medium{
+    float :right;
+    font-size: 15px;
+    width: 33%;
+  }
+  #large{
+    float: left;
+    width: 100%;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    background-color: blue;
+  }
+
+  #small,#medium,#large {
+    font-size: 20px;
+    float:left;
+    width: 33%;
+    margin: 0.1%;
+  }
+}
+
+

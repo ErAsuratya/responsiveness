@@ -1,1 +1,1 @@
-# responsiveness
+https://erasuratya.github.io/responsiveness/
